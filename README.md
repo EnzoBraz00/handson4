@@ -53,7 +53,9 @@ comando-para-executar
 Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 📞 Contato
-📧 Email: seuemail@exemplo.com  
-🔗 LinkedIn: [Seu Nome](https://linkedin.com/in/seu-usuario)  
-🐙 GitHub: [Seu Usuário](https://github.com/seu-usuario)
-
+📧 Email Enzo: enzo.braz@germinare.org.br
+📧 Email Matheus: matheus.daddio@germinare.org.br  
+🔗 LinkedIn: [Enzo Braz](https://linkedin.com/in/enzobraz)
+🔗 LinkedIn: [Matheus Daddio](https://linkedin.com/in/matheusdaddio)  
+🐙 GitHub: [Enzo Braz](https://github.com/EnzoBraz00)
+🐙 GitHub: [Matheus Daddio](https://github.com/matheusdaddio)
