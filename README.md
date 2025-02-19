@@ -19,7 +19,7 @@ O InDespensa é um projeto desenvolvido para auxiliar no gerenciamento de alimen
 - [Java](https://www.java.com/) para o desenvolvimento do Backend.
 
 ## 🐄️ Banco de Dados Utilizado
-- [PostgreSQL](https://www.mongodb.com/) para armazenar os dados dos administradores que logavam na landing page.
+- [PostgreSQL](https://www.postgresql.org/docs/) para armazenar os dados dos administradores que logavam na landing page.
 - [MongoDB](https://www.mongodb.com/) para armazenar os dados dos usuários e produtos.
 
 ## 🏰️ Framework Utilizado
@@ -39,18 +39,12 @@ O InDespensa é um projeto desenvolvido para auxiliar no gerenciamento de alimen
 
 ```bash
 # Clone este repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/OttistTech/app-indespensa.git
 
 # Acesse a pasta do projeto
-cd nome-do-projeto
+cd app-indespensa
 
-# Compile e execute o backend
-cd backend
-mvn clean install
-mvn spring-boot:run
-```
-
-A landing page pode ser aberta diretamente no navegador acessando o arquivo `index.html` dentro do diretório `frontend`.
+A landing page pode ser aberta diretamente no navegador acessando o arquivo `https://servlet-indespensa.onrender.com/app/`.
 
 ## 📜 Informações de Licença
 
