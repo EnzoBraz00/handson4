@@ -1,6 +1,6 @@
-# Nome do Projeto
+# Projeto Interdisciplinar - InDespensa
 
-![Badge de Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-orange)
+![Badge de Status](https://img.shields.io/badge/Status-%20Concluído-green)
 
 Descrição breve do projeto. Explique em poucas palavras o objetivo principal.
 
