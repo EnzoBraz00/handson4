@@ -5,40 +5,35 @@
 O InDespensa é um projeto desenvolvido para auxiliar no gerenciamento de alimentos e produtos em despensas residenciais, evitando desperdícios e facilitando o controle de estoque de forma eficiente.
 
 ## 📌 Índice
-- [Sobre o Projeto](#sobre-o-projeto)
 - [Linguagem Utilizada: FrontEnd/Backend](#linguagem-utilizada-frontendbackend)
 - [Banco de Dados Utilizado](#banco-de-dados-utilizado)
 - [Framework Utilizado](#framework-utilizado)
-- [Como Executar a Instalação no Notebook](#como-executar-a-instala%C3%A7%C3%A3o-no-notebook)
-- [Informações de Licença](#informa%C3%A7%C3%B5es-de-licen%C3%A7a)
-- [Informações de Copyright](#informa%C3%A7%C3%B5es-de-copyright)
+- [Como Executar a Instalação no Notebook](#como-executar-a-instalação-no-notebook)
+- [Informações de Licença](#informações-de-licença)
+- [Informações de Copyright](#informações-de-copyright)
 - [Contato](#contato)
-
----
-
-## 📖 Sobre o Projeto
-Descreva o problema que o projeto resolve e como ele funciona. Se possível, adicione imagens ou gifs demonstrativos.
 
 ## 🖥️ Linguagem Utilizada: FrontEnd/Backend
 
-- [React.js](https://reactjs.org/) para o desenvolvimento do FrontEnd.
-- [Node.js](https://nodejs.org/) para o desenvolvimento do Backend.
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) e [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) para o desenvolvimento da Landing Page (FrontEnd).
+- [Java](https://www.java.com/) para o desenvolvimento do Backend.
 
-## 🗄️ Banco de Dados Utilizado
+## 🐄️ Banco de Dados Utilizado
+- [PostgreSQL](https://www.mongodb.com/) para armazenar os dados dos administradores que logavam na landing page.
+- [MongoDB](https://www.mongodb.com/) para armazenar os dados dos usuários e produtos.
 
-- [PostgreSQL](https://www.postgresql.org/) como banco de dados relacional para armazenar os dados dos usuários e produtos.
+## 🏰️ Framework Utilizado
 
-## 🏗️ Framework Utilizado
-
-- [Express.js](https://expressjs.com/) para estruturar o Backend.
-
+- [Jakarta EE](https://jakarta.ee/) para a estruturação do Backend utilizando Servlets.
+- [Spring Framework](https://spring.io/) para a implementação de microserviços.
 
 ## ▶️ Como Executar a Instalação no Notebook
 
 ### 🔹 Pré-requisitos
 
-- Ter o [Node.js](https://nodejs.org/) instalado.
-- Ter o [PostgreSQL](https://www.postgresql.org/) instalado e configurado.
+- Ter o [Java 17+](https://www.java.com/) instalado.
+- Ter o [MongoDB](https://www.mongodb.com/) instalado e configurado.
+- Ter um servidor de aplicação compatível com Jakarta EE (exemplo: [Tomcat](https://tomcat.apache.org/)).
 
 ### 🔹 Instalação
 
@@ -49,22 +44,13 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 # Acesse a pasta do projeto
 cd nome-do-projeto
 
-# Instale as dependências do backend
+# Compile e execute o backend
 cd backend
-npm install
-
-# Instale as dependências do frontend
-cd ../frontend
-npm install
-
-# Execute o backend
-cd ../backend
-npm start
-
-# Execute o frontend
-cd ../frontend
-npm start
+mvn clean install
+mvn spring-boot:run
 ```
+
+A landing page pode ser aberta diretamente no navegador acessando o arquivo `index.html` dentro do diretório `frontend`.
 
 ## 📜 Informações de Licença
 
@@ -75,9 +61,9 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para m
 Todos os direitos reservados aos desenvolvedores do projeto.
 
 ## 📞 Contato
-📧 Email Enzo: enzo.braz@germinare.org.br
+📧 Email Enzo: enzo.braz@germinare.org.br  
 📧 Email Matheus: matheus.daddio@germinare.org.br  
-🔗 LinkedIn: [Enzo Braz](https://linkedin.com/in/enzobraz)
+🔗 LinkedIn: [Enzo Braz](https://linkedin.com/in/enzobraz)  
 🔗 LinkedIn: [Matheus Daddio](https://linkedin.com/in/matheusdaddio)  
-🐙 GitHub: [Enzo Braz](https://github.com/EnzoBraz00)
-🐙 GitHub: [Matheus Daddio](https://github.com/matheusdaddio)
+🔍 GitHub: [Enzo Braz](https://github.com/EnzoBraz00)  
+🔍 GitHub: [Matheus Daddio](https://github.com/matheusdaddio)
