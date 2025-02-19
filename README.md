@@ -2,14 +2,16 @@
 
 ![Badge de Status](https://img.shields.io/badge/Status-%20Concluído-green)
 
-Descrição breve do projeto. Explique em poucas palavras o objetivo principal.
+O InDespensa é um projeto desenvolvido para auxiliar no gerenciamento de alimentos e produtos em despensas residenciais, evitando desperdícios e facilitando o controle de estoque de forma eficiente.
 
 ## 📌 Índice
 - [Sobre o Projeto](#sobre-o-projeto)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Executar](#como-executar)
-- [Contribuição](#contribui%C3%A7%C3%A3o)
-- [Licença](#licen%C3%A7a)
+- [Linguagem Utilizada: FrontEnd/Backend](#linguagem-utilizada-frontendbackend)
+- [Banco de Dados Utilizado](#banco-de-dados-utilizado)
+- [Framework Utilizado](#framework-utilizado)
+- [Como Executar a Instalação no Notebook](#como-executar-a-instala%C3%A7%C3%A3o-no-notebook)
+- [Informações de Licença](#informa%C3%A7%C3%B5es-de-licen%C3%A7a)
+- [Informações de Copyright](#informa%C3%A7%C3%B5es-de-copyright)
 - [Contato](#contato)
 
 ---
@@ -17,17 +19,29 @@ Descrição breve do projeto. Explique em poucas palavras o objetivo principal.
 ## 📖 Sobre o Projeto
 Descreva o problema que o projeto resolve e como ele funciona. Se possível, adicione imagens ou gifs demonstrativos.
 
-## 🚀 Tecnologias Utilizadas
-- [Linguagem/Framework 1](https://link-da-documentacao.com)
-- [Linguagem/Framework 2](https://link-da-documentacao.com)
-- [Banco de Dados, se houver]
+## 🖥️ Linguagem Utilizada: FrontEnd/Backend
 
-## ▶️ Como Executar
+- [React.js](https://reactjs.org/) para o desenvolvimento do FrontEnd.
+- [Node.js](https://nodejs.org/) para o desenvolvimento do Backend.
+
+## 🗄️ Banco de Dados Utilizado
+
+- [PostgreSQL](https://www.postgresql.org/) como banco de dados relacional para armazenar os dados dos usuários e produtos.
+
+## 🏗️ Framework Utilizado
+
+- [Express.js](https://expressjs.com/) para estruturar o Backend.
+
+
+## ▶️ Como Executar a Instalação no Notebook
 
 ### 🔹 Pré-requisitos
-- Requisitos necessários para rodar o projeto (exemplo: Node.js, Docker, Python, etc.)
+
+- Ter o [Node.js](https://nodejs.org/) instalado.
+- Ter o [PostgreSQL](https://www.postgresql.org/) instalado e configurado.
 
 ### 🔹 Instalação
+
 ```bash
 # Clone este repositório
 git clone https://github.com/seu-usuario/seu-repositorio.git
@@ -35,22 +49,30 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 # Acesse a pasta do projeto
 cd nome-do-projeto
 
-# Instale as dependências
-comando-para-instalar-dependencias
+# Instale as dependências do backend
+cd backend
+npm install
 
-# Execute a aplicação
-comando-para-executar
+# Instale as dependências do frontend
+cd ../frontend
+npm install
+
+# Execute o backend
+cd ../backend
+npm start
+
+# Execute o frontend
+cd ../frontend
+npm start
 ```
 
-## 🤝 Contribuição
-1. Faça um fork do projeto
-2. Crie uma branch com a sua feature (`git checkout -b minha-feature`)
-3. Commit suas mudanças (`git commit -m 'Minha nova feature'`)
-4. Faça um push para a branch (`git push origin minha-feature`)
-5. Abra um Pull Request
+## 📜 Informações de Licença
 
-## 📜 Licença
 Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## ©️ Informações de Copyright
+
+Todos os direitos reservados aos desenvolvedores do projeto.
 
 ## 📞 Contato
 📧 Email Enzo: enzo.braz@germinare.org.br
